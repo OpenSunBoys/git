@@ -15,5 +15,21 @@
 | git reflog                           | 查看历史记录   |
 | git reset --hard 版本号              | 版本穿梭       |
 
+#### git 分支命令
+
+| 命令名称          | 作用     |
+| ----------------- | -------- |
+| git branch 分支名 | 创建分支 |
+| git branch -v|查看分支|
+| git checkout 分支名  |  切换分支  |
+| git merge 分支名  | 把指定的分支合并到**当前**分支上 |
+
+#### 团队协作
+
+| 命令名称 | 说明 |
+|--------------|--------|
+| git remote -v | 查看别名信息 |
+|  git remote add git https://github.com/coco-road/git.git | 给GitHub上的 git 起表名 git |
+| 
 
 

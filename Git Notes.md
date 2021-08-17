@@ -35,3 +35,8 @@
 | git remote  set-url  <别名>  [url]  | 修改别名中git的url地址 |
 | git **pull** <别名> master | 从远程库拉取 |
 | git clone <url> | 从远程库拉取代码，拉取之后 git status 发现本地库已经初始化，且远程库别名都已配置好|
+
+####  免密登录
+*  windows 用户home目录下.ssh目录
+*  ssh-keygen -t rsa -C “自己的描述符”
+*  setting --> ssh

@@ -29,7 +29,8 @@
 | 命令名称 | 说明 |
 |--------------|--------|
 | git remote -v | 查看别名信息 |
-|  git remote add git https://github.com/coco-road/git.git | 给GitHub上的 git 起表名 git |
-| 
-
-
+| git remote add <别名> https://github.com/coco-road/git.git | 给GitHub上的 git 起表名 别名 |
+| git **push** <别名> master | 将master分支**推向**远程库 |
+| git remote rm <别名> | 移出别名 |
+| git remote  set-url  <别名>  [url]  | 修改别名中git的url地址 |
+| git **pull** <别名> master | 从远程库拉取 |
